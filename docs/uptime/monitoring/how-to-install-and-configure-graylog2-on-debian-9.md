@@ -37,7 +37,7 @@ The steps in this guide require root privileges. Be sure to run the steps below 
 
 2.  Not all required dependencies are available in the standard repository, so you will need to add Debian Backports to the list of package sources:
 
-        echo "deb http://ftp.debian.org/debian jessie-backports main" > /etc/apt/sour0es.list.d/backports.list
+        echo "deb http://ftp.debian.org/debian jessie-backports main" > /etc/apt/sources.list.d/backports.list
 
 3.  Update your system:
 
